@@ -1,0 +1,100 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background gradient similar to your image */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f16b5b, #8b88d4, #61c6a4);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center; /* Center all text */
+}
+
+/* Styling the form container */
+form {
+    background: #ffffff10; /* Transparent white for a subtle background */
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px); /* Glassmorphism style blur */
+}
+
+/* Form input styles */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Submit button styling */
+button {
+    background-color: #61c6a4;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4fa087;
+}
+
+/* Styling the message */
+label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    color: #ffeb3b; /* New color for the message text */
+}
+
+/* Styling the "Translate the word:" text */
+.translate-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    color: #ffeb3b; /* Color for the "Translate the word:" text */
+}
+
+/* Styling the French random words */
+.french-word {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff6347; /* Different color for the French random words */
+    display: inline-block;
+    margin-left: 5px;
+}
+
+/* Styling the "Try another word" button */
+a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #61c6a4; /* Same style as submit button */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #4fa087; /* Hover effect same as the submit button */
+}
